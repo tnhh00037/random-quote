@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.content {
+  position: relative;
+  margin: 100px auto;
+  width: 430px;
+  height: auto;
+  padding: 50px;
+  background: white;
+  font-size: 30px;
+  /* font-weight: bold; */
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  min-height: 300px;
+  border-radius: 10px;
+}
+.content p {
+  transition: 0.8s;
+}
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.8s;
+}
+.btn {
+  position: absolute;
+  bottom: 20px;
+
+  color: white;
+}
+#new-quote {
+  right: 20px;
+  width: 120px;
+}
+#author {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  margin-bottom: 20px;
 }
